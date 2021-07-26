@@ -1,0 +1,14 @@
+{
+  "name": "first-node",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "main.js",
+  "scripts": {
+    "test": "main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
