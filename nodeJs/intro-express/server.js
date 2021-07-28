@@ -32,6 +32,13 @@ app.set("views", path.join(__dirname, 'views'));
     todos: todoDb.getAll()
   });
 });
+ 
+//Businesses list
+//  app.get('/businesses', function(req, res) {
+//   res.render('businesses/index', {
+//     businesses: businessesDb.getAll()
+//   });
+// });
 
  // Tell the app to listen on port 3000
  // for HTTP requests from clients
