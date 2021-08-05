@@ -7,7 +7,10 @@ const mongoose = require('mongoose');
 
 // creating schema option 2
 const movieSchema = new mongoose.Schema({
-    title: String,
+    title: {
+        type: String,
+        required: true,
+    },
     releaseYear: Number,
     mpaaRating: String,
     cast: [String],
